@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/styles/general.css"> 
+        <link rel="stylesheet" href="/styles/header.css">
+        <link rel="stylesheet" href="/styles/nav-bar.css">
+    </head>
+    <body>
+        <div class="header-wrapper">
+            <div class="header">
+                <img src="/images/RI200-web-banner-stamford-student.png" class="stamford-banner">
+    
+                <div class="external-sites">
+                    <button class="external-sites-buttons"><a href="https://www.ri.edu.sg/" target="_blank">RI Website</a></button>
+                    <button class="external-sites-buttons"><a href="https://ivy.ri.edu.sg/login/saml" target="_blank">Login to Ivy</a></button>
+                    <button class="external-sites-buttons"><a href="http://portal.office.com" target="_blank">Student Email</a></button>
+                </div> 
+            </div>
+        </div>
+
+        <div class="nav-bar-wrapper">
+            <div class="nav-bar">
+                <div class="nav-bar-left">
+                    <div class="pages">
+                        <button class="pages-button"><a href="/html/home.html" target="_blank">Home</a></button>
+                        <button class="pages-button"><a href="/html/staff-directory.html" target="_blank">Staff Directory</a></button>
+                        <button class="pages-button"><a href="/html/student's-school-record.html" target="_blank">Student's School Record</a></button>
+                        <button class="pages-button"><a href="/html/student-particulars.html" target="_blank">Student's Particulars</a></button>
+                    </div>
+    
+                    <div class="view-allocation">
+                        <button class="view-allocation-button
+                        js-view-allocation-button">2024 Year 3 Course Allocation</button>
+
+                        <div class="allocation-modal js-allocation-modal">
+                            <div class="overlay"></div>
+                            <div class="allocation-modal-content">
+                                <button class="close-modal-button js-close-modal-button">&#x2715;</button>
+
+                                <div class="content-header">2024 Year 3 Course Option Info</div>
+                                <div class="content-body">
+                                    <p>Allocated Course : <span>A2 (GEO, PHYS, CHEM)</span></p>
+                                    <p>Allocated Class : <span>3I</span></p>
+                                    <p>Remarks :</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="nav-bar-right">
+                    <button class="welcome-button js-welcome-button">Welcome, NGUYEN HA THAI SON <span>&#9660;</span></button>
+
+                    <div class="logout js-logout">
+                        <button class="logout-button">Logout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            //Toggle logout visibility
+            const welcomeButton = document.querySelector('.js-welcome-button');
+
+            welcomeButton.addEventListener('click', () => {
+                const logout = document.querySelector('.js-logout');
+
+                if (logout.classList.contains('logout-visible')) {
+                    logout.classList.remove('logout-visible')
+                } else {
+                    logout.classList.add('logout-visible');
+                }
+            });
+
+            //Toggle course info modal
+            const allocationModal = document.querySelector('.js-allocation-modal');
+            const courseInfoButton = document.querySelector('.js-view-allocation-button');
+            const closeModalButton = document.querySelector('.js-close-modal-button')
+
+            courseInfoButton.addEventListener('click', () => {
+                allocationModal.classList.add('allocation-modal-active');
+            });
+
+            closeModalButton.addEventListener('click', () => {
+                allocationModal.classList.remove('allocation-modal-active');
+            })
+        </script>
+    </body>
+</html>
