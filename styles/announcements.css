@@ -71,34 +71,96 @@
     margin-right: 4px;
 }
 
-/*Event calendar*/
-.event-calendar {
-    padding-right: 15px;
+.announcements-log {
+    margin-top: 30px
 }
 
-.view-monthly-events-button {
-    margin-top: 5px;
-    height: 36.45px;
-    padding: 10px 12px 6px 12px;
-    border-radius: 4px;
-    border-style: solid;
-    border-width: 0.8px;
-    border-color:  rgb(204, 204, 204);
+.announcements-item {
+    position: relative;
+    padding-left: 100px;
+    background-color: rgb(240,242,249);
+}
+
+.gray-background {
+    background-color: rgb(240,242,249);
+}
+
+.white-background {
     background-color: white;
-    color: rgb(51, 51, 51);
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14.5px;
-    cursor: pointer;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.event-calendar .section-header p {
-    font-size: 16px;
-    text-decoration: underline;
+.announcements-item button {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    border-radius: 3px;
+    color: white;
+    padding: 5.4px 7.2px 2.4px 7.2px;
+    height: 22px;
     font-weight: 700;
+    border: none;
+}
+
+.announcements-item-content {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.announcements-item img {
+    margin-left: 5px;
+}
+
+.announcements-item p {
     margin: 0;
-    margin-top: 38px;
+}
+
+.announcements-item-date {
+    padding: 0px 0px 15px 0px;
+    font-weight: bold;
+}
+
+.announcements-item-date span {
+    font-weight: 600;
+    color: rgb(121,122,145);
+    font-style: italic;
+    font-size: 15px;
+}
+
+.tooltip {
+    position: absolute;
+    background: #000000;
+    padding: 5px 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    top: -30px; 
+    left: 0px;
+
+    /* Hidden by default */
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s; 
+}
+
+.announcements-item button:hover + .tooltip {
+    opacity: 1; 
+}
+
+.tooltip p {
+    color: white;
 }
 
 
+.tooltip p::after {
+    content: " ";
+    position: absolute;
+    top: 100%; 
+    left: 19.2px;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
 
