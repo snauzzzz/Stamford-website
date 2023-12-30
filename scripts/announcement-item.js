@@ -1,18 +1,21 @@
 import { tag } from "../data/announcements-tags.js";
-import { message } from "../data/announcements-message-log.js";
+import { message, sortMessage } from "../data/announcements-message-log.js";
 
 export function renderAnnouncementList() {
+    //Sort message to prioritize pinned 
+    const sortedMessage = sortMessage(message);
+    
     let announcementsHTML = '';
     let background = false;
 
-    message.forEach((message) => {
+    sortedMessage.forEach((message) => {
         let matchingTag;
         
         tag.forEach((tag) => {
             if (message.tagId === tag.id) {
                 matchingTag = tag;
             }
-        })
+        });
 
         let isPinned = message.pinned ? '<img src="/images/stamford2_icons_pin.png">' : '';
 
