@@ -18,6 +18,10 @@
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.view-monthly-events-button:hover {
+    background-color: rgb(230, 230, 230);
+}
+
 .event-calendar .section-header p {
     font-size: 16px;
     text-decoration: underline;
