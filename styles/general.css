@@ -1,5 +1,6 @@
 body {
+    position: relative;
     margin: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 3000px;
+    height: 1600px;
 }
