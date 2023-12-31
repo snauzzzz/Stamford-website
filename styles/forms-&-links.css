@@ -1,0 +1,42 @@
+.forms-and-links {
+    margin-top: 50px;
+}
+
+.forms-and-links-content {
+    padding-top: 5px;
+}
+
+.forms-and-links-item {
+    padding-left: 10px;
+    height: 35.85px;
+    display: flex;
+    align-items: center;
+}
+
+.forms-and-links-item p {
+    font-size: 15.5px;
+    margin: 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.forms-and-links p:hover {
+    text-decoration: underline;
+}
+
+.forms-and-links-item button {
+    margin-top: 4px;
+    margin-left: 10px;
+    background-color: #777;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-weight: 700;
+    padding: 3px 7px;
+    font-size: 12px;
+}
+
+.forms-and-links-item:hover {
+    background-color: rgb(246, 246, 246);
+}
+
