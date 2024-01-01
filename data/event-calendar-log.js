@@ -22,4 +22,8 @@ export const event = [{
     name: 'House Reconnection',
     startDate: '05 Jan 2024',
     duration: ''
+}, {
+    name: 'Y1 Class Phototaking',
+    startDate: '08 Jan 2024',
+    duration: ''
 }]
