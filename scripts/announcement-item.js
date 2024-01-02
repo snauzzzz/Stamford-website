@@ -42,7 +42,7 @@ export function renderAnnouncementList() {
                     <div class="overlay"></div>
                     <div class="announcements-modal-content">
                         
-                        <div class="modal-header">
+                        <div class="modal-header" style="font-weight: 100">
                            Announcement
                            <button class="announcements-close-modal-button js-close-modal-button" style="color: rgb(214,214,214);">&#x2715;</button>
                         </div>
