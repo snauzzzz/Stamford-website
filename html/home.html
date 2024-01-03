@@ -16,13 +16,26 @@
     <body>
         <div class="header-wrapper">
             <div class="header">
+
+                <img formaction="https://ri200.ri.edu.sg/" src="/images/RI200-web-banner-stamford-student.png" class="stamford-banner toggle-border">
                 
-                <a href="https://ri200.ri.edu.sg/" target="_blank"><img src="/images/RI200-web-banner-stamford-student.png" class="stamford-banner"></a>
-    
                 <div class="external-sites">
-                    <button class="external-sites-buttons"><a href="https://www.ri.edu.sg/" target="_blank">RI Website</a></button>
-                    <button class="external-sites-buttons"><a href="https://ivy.ri.edu.sg/login/saml" target="_blank">Login to Ivy</a></button>
-                    <button class="external-sites-buttons"><a href="http://portal.office.com" target="_blank">Student Email</a></button>
+                    <div class="external-buttons-wrapper slide-down">
+                        <div class="external-buttons">
+                            <button class="external-sites-buttons"><a href="https://www.ri.edu.sg/" target="_blank">RI Website</a></button>
+                            <button class="external-sites-buttons"><a href="https://ivy.ri.edu.sg/login/saml" target="_blank">Login to Ivy</a></button>
+                            <button class="external-sites-buttons"><a href="http://portal.office.com" target="_blank">Student Email</a></button>
+                        </div>
+                    </div>
+                    
+                    <div style="height: 50px">
+                        <button class="toggle-visibility">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </button>
+                    </div>
+                    
                 </div> 
             </div>
         </div>
@@ -114,15 +127,6 @@
                 </div>
 
                 <div class="forms-and-links-content">
-                    <div class="forms-and-links-item">
-                        <p>Financial Aid & Edusave</p>
-                        <button>2 items</button>
-                    </div>
-                    
-                    <div class="forms-and-links-item">
-                        <p>Financial Aid & Edusave</p>
-                        <button>2 items</button>
-                    </div>
                 </div>
             </div>
         </div>
@@ -134,5 +138,11 @@
         </div>
 
         <script type="module" src="../scripts/renderHome.js"></script>
+
+        <script>
+                        function myFunction(x) {
+            x.classList.toggle("change");
+            }
+        </script>
     </body>
 </html>

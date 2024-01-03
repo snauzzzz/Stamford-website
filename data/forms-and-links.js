@@ -36,32 +36,17 @@ export const formsAndLink = [{
     name: 'Raffles Digital Badges ',
     message: [
         {
-            title: 'wow',
-            date: 'wow',
+            title: 'Information Guide on the Raffles Programme 2023',
+            date: '	31/1/2023 12:13 PM',
             tagId: 'Form'
-        }, 
-        {
-            title: 'wow',
-            date: 'wow',
-            tagId: 'Link'
-        }, 
-        {
-            title: 'wow',
-            date: 'wow',
-            tagId: 'Link'
         }
     ]
 }, {
     name: 'Raffles Guidance Centre',
     message: [
         {
-            title: 'wow',
-            date: 'wow',
-            tagId: 'Form'
-        }, 
-        {
-            title: 'wow',
-            date: 'wow',
+            title: 'Counseling Request Form',
+            date: '	22/12/2021 4:15 PM',
             tagId: 'Form'
         }
     ]
@@ -69,27 +54,27 @@ export const formsAndLink = [{
     name: 'RI Libraries',
     message: [
         {
-            title: 'wow',
-            date: 'wow',
-            tagId: 'Form'
+            title: 'Online Library Catalogue',
+            date: '	22/12/2021 4:16 PM',
+            tagId: 'Link'
         }, 
         {
-            title: 'wow',
-            date: 'wow',
-            tagId: 'Form'
+            title: 'Library Resource Recommendation (Student)',
+            date: '	8/2/2022 4:15 PM',
+            tagId: 'Link'
         }
     ]
 }, {
     name: 'Student Handbooks',
     message: [
         {
-            title: 'wow',
-            date: 'wow',
+            title: 'Rules Governing Use of IT Facilities',
+            date: '30/12/2021 11:56 AM',
             tagId: 'Form'
         }, 
         {
-            title: 'wow',
-            date: 'wow',
+            title: '2024 Year 1-4 Student Handbook',
+            date: '	15/12/2023 12:20 PM',
             tagId: 'Form'
         }
     ]
@@ -97,18 +82,13 @@ export const formsAndLink = [{
     name: "Students' Accident Protection Scheme",
     message: [
         {
-            title: 'wow',
-            date: 'wow',
+            title: `Students' Accident Protection Scheme - Claim Form`,
+            date: '	9/1/2023 8:58 AM',
             tagId: 'Form'
         }, 
         {
-            title: 'wow',
-            date: 'wow',
-            tagId: 'Form'
-        }, 
-        {
-            title: 'wow',
-            date: 'wow',
+            title: `Students' Accident Protection Scheme - Policy Coverage & Claims Procedure`,
+            date: '	9/1/2023 8:58 AM',
             tagId: 'Form'
         }
     ]
