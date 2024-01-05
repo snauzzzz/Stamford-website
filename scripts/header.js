@@ -4,6 +4,7 @@ export function renderHeader() {
     const wrapper = document.querySelector('.external-buttons-wrapper');
     const banner = document.querySelector('.stamford-banner')
     const button = document.querySelector('.toggle-visibility');
+    wrapper.classList.remove('slide-down');
 
     button.addEventListener('click', () => {
         wrapper.classList.toggle('slide-down');  

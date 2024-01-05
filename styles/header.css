@@ -1,5 +1,6 @@
 .header-wrapper {
     padding-right: 2px;
+
 }
 
 .header {
@@ -11,6 +12,7 @@
     height: 85px;
     width: 100%;
     margin-right: 10px;   
+    z-index: 100;
 }
 
 .stamford-banner-wrapper {
