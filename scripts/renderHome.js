@@ -9,3 +9,11 @@ renderNavBar();
 renderAnnouncementList();
 renderEventCalendar();
 renderFormsAndLinks();
+
+document.querySelectorAll('.search-tags button') 
+    .forEach((button) => {
+        button.addEventListener('click', () => {
+            let tag = button.innerHTML;
+            renderAnnouncementList(tag);
+        })
+    })

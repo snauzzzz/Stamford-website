@@ -25,7 +25,7 @@ export const message = [{
         addedDate: ''
     }
 }, { 
-    tagId: 'Admin',
+    tagId: 'CCA',
     content: 'Travel Declaration for Year-End Holiday',
     pinned: true,
     date: '23 Oct 2023',
