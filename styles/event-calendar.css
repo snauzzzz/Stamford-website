@@ -71,5 +71,9 @@
     color: rgb(119, 119, 119);
 }
 
-
+@media (max-width: 991.2px) {
+    .event-calendar {
+        margin-left: 15px;
+    }
+}
 

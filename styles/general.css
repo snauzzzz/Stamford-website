@@ -19,3 +19,9 @@ body {
     border: 0;
     background-color: rgb(240,240,240);
 }
+
+@media (max-width: 991.2px) {
+    .page-content {
+        grid-template-columns: 1fr;
+    }
+}

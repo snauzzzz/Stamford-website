@@ -210,4 +210,10 @@ th {
     margin-left: 4px;
 }
 
+@media (max-width: 991.2px) {
+    .forms-and-links {
+        margin-left: 15px;
+    }
+}
+
 
