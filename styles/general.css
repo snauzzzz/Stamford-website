@@ -1,0 +1,27 @@
+body {
+    position: relative;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 200px;
+}
+
+.page-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    padding-top: 35px;
+}
+
+.page-content hr {
+    margin: 15px 0px;
+    width: 100%;
+    height: 1px;
+    border: 0;
+    background-color: rgb(240,240,240);
+}
+
+@media (max-width: 991.2px) {
+    .page-content {
+        grid-template-columns: 1fr;
+    }
+}

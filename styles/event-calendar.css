@@ -1,0 +1,80 @@
+.event-calendar {
+    padding-right: 15px;
+}
+
+.view-monthly-events-button {
+    margin-top: 5px;
+    height: 36.45px;
+    padding: 10px 12px 6px 12px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 0.8px;
+    border-color:  rgb(204, 204, 204);
+    background-color: white;
+    color: rgb(51, 51, 51);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14.5px;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.view-monthly-events-button:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.event-calendar .section-header p {
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 38px;
+}
+
+.event-calendar-list {
+    padding-top: 9px;
+}
+
+.event {
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 20px; 
+    padding-left: 32.5px;
+    width: 100%;
+    height: 111.7px;
+    background-color: rgb(240,242,249);
+    font-size: 15.5px;
+}
+
+.gray-background {
+    background-color: rgb(240,242,249);
+}
+
+.white-background {
+    background-color: white;
+}
+
+.event .sidebar {
+    position: absolute;
+    top: 7.5px;
+    left: 7.5px;
+    width: 5px;
+    height: 77.5px;
+    background-color: rgb(238,238,238);
+}
+
+.event p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.event .date {
+    color: rgb(119, 119, 119);
+}
+
+@media (max-width: 991.2px) {
+    .event-calendar {
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+}
+
