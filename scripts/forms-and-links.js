@@ -1,5 +1,5 @@
-import { formsAndLink } from "../data/forms-and-links.js";
-import { formsAndLinksTag } from "../data/forms-and-links-tags.js";
+import { formsAndLink } from "data/forms-and-links.js";
+import { formsAndLinksTag } from "data/forms-and-links-tags.js";
 
 export function renderFormsAndLinks() {
     let id = 0;

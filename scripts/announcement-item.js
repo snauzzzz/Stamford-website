@@ -1,5 +1,5 @@
-import { tag } from "../data/announcements-tags.js";
-import { message, sortMessage } from "../data/announcements-message-log.js";
+import { tag } from "data/announcements-tags.js";
+import { message, sortMessage } from "data/announcements-message-log.js";
 
 export function renderAnnouncementList(selectedTag, searchInput) {
     console.log(selectedTag);
@@ -22,7 +22,7 @@ export function renderAnnouncementList(selectedTag, searchInput) {
                 }
             });
     
-            let isPinned = message.pinned ? '<img src="/images/stamford2_icons_pin.png">' : '';
+            let isPinned = message.pinned ? '<img src="images/stamford2_icons_pin.png">' : '';
     
             background = !background;
             let backgroundColor = background ? 'gray-background' : 'white-background'; 
@@ -82,7 +82,7 @@ export function renderAnnouncementList(selectedTag, searchInput) {
             });
             
             if (matchingTag.id === selectedTag) {
-                let isPinned = message.pinned ? '<img src="/images/stamford2_icons_pin.png">' : '';
+                let isPinned = message.pinned ? '<img src="images/stamford2_icons_pin.png">' : '';
     
                 background = !background;
                 let backgroundColor = background ? 'gray-background' : 'white-background'; 
@@ -147,7 +147,7 @@ export function renderAnnouncementList(selectedTag, searchInput) {
             let content = message.content.toLowerCase();
             
             if (content.includes(searchInput)) {
-                let isPinned = message.pinned ? '<img src="/images/stamford2_icons_pin.png">' : '';
+                let isPinned = message.pinned ? '<img src="images/stamford2_icons_pin.png">' : '';
     
                 background = !background;
                 let backgroundColor = background ? 'gray-background' : 'white-background'; 
@@ -212,7 +212,7 @@ export function renderAnnouncementList(selectedTag, searchInput) {
             
             if (matchingTag.id === selectedTag && content.includes(searchInput)) {
                 console.log(2);
-                let isPinned = message.pinned ? '<img src="/images/stamford2_icons_pin.png">' : '';
+                let isPinned = message.pinned ? '<img src="images/stamford2_icons_pin.png">' : '';
     
                 background = !background;
                 let backgroundColor = background ? 'gray-background' : 'white-background'; 

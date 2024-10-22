@@ -1,10 +1,9 @@
-import { renderNavBar } from "./nav-bar.js";
-import { renderAnnouncementList } from "./announcement-item.js";
-import { renderEventCalendar } from "./event-calendar.js";
-import { renderFormsAndLinks } from "./forms-and-links.js";
-import { renderHeader } from "./header.js";
-import { event } from "../data/event-calendar-log.js";
-import { changeTheme } from "./change-theme.js";
+import { renderNavBar } from "scripts/nav-bar.js";
+import { renderAnnouncementList } from "scripts/announcement-item.js";
+import { renderEventCalendar } from "scripts/event-calendar.js";
+import { renderFormsAndLinks } from "scripts/forms-and-links.js";
+import { renderHeader } from "scripts/header.js";
+import { changeTheme } from "scripts/change-theme.js";
 
 renderHeader();
 changeTheme();
