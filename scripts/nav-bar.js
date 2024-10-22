@@ -1,7 +1,4 @@
 export function renderNavBar() {
-
-    
-
     //Toggle logout visibility
     const welcomeButton = document.querySelector('.js-welcome-button');
 

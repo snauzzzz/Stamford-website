@@ -1,4 +1,4 @@
-import { event } from "../data/event-calendar-log.js";
+import { event } from "data/event-calendar-log.js";
 import dayjs from 'https://unpkg.com/dayjs@1.11.10/esm/index.js';
 
 export function renderEventCalendar() {
